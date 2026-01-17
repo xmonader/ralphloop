@@ -1,0 +1,26 @@
+# Binaries
+/ralphloop
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Project State (Autonomous Loop persistence)
+.ralph/PROMPT.md
+
+# Build/Test artifacts
+bin/
+obj/
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go specific
+vendor/
+go.sum
